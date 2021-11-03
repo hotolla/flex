@@ -1,0 +1,148 @@
+@media (max-width: 1050px) {
+  .gallery__items {
+    justify-content: center;
+    gap: 20px;
+  }
+  .gallery__item-img {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 1015px) {
+  .opentype__item-text {
+    font-size: 40px;
+  }
+  .contents__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 970px) {
+  .testimonials__items {
+    gap: 10px;
+    justify-content: center;
+  }
+  .testimonials__item {
+    width: 48.2%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .opentype__item {
+    padding: 40px 20px;
+  }
+  .opentype__item-text {
+    font-size: 34px;
+  }
+  .promo__title {
+    font-size: 55px;
+  }
+  .text {
+    font-size: 18px;
+    margin: 30px auto 60px;
+  }
+  .features__title {
+    font-size: 42px;
+  }
+  .features__wrapper {
+    column-gap: 5px;
+  }
+
+  .header,
+  .promo,
+  .features,
+  .contents {
+    padding: 70px 0;
+  }
+  .gallery,
+  .partners,
+  .testimonials,
+  .opentype {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 790px) {
+  .gallery__item-img {
+    max-width: 135px;
+    gap: 10px;
+  }
+  .features__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+  .features__items {
+    width: 44%;
+  }
+}
+@media (max-width: 650px) {
+  .testimonials__items {
+    gap: 23px;
+  }
+}
+@media (max-width: 550px) {
+  .promo__title {
+    font-size: 40px;
+  }
+  .text {
+    margin: 22px auto 44px;
+  }
+  .promo {
+    background: none;
+  }
+  .promo__buttons {
+    padding-top: 57px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .promo__buttons button:first-child {
+    margin-right: 0;
+  }
+  .features__items {
+    width: 52%;
+  }
+  .testimonials__item {
+    /*почему не работет))*/
+    width: 85%;
+    padding: 40px;
+  }
+}
+@media (max-width: 450px) {
+  .container {
+    padding: 0 30px;
+  }
+  .promo__title {
+    font-size: 35px;
+  }
+  .gallery__item-img {
+    max-width: 300px;
+    width: 100%;
+    gap: 33px;
+  }
+  .partners__items {
+    gap: 37px;
+    width: 100%;
+  }
+  .testimonials__item {
+    width: 100%;
+  }
+  .opentype__wrapper {
+    flex-direction: column;
+    align-items: center;
+    width: 82%;
+  }
+  .opentype__item {
+    background: none;
+    text-align: center;
+  }
+  .footer__wrapper {
+    display: block;
+  }
+}
